@@ -1,0 +1,14 @@
+{
+  "name": "jest_testing",
+  "version": "1.0.0",
+  "description": "For unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Driss",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

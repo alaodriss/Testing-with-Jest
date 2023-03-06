@@ -1,0 +1,11 @@
+    
+    1 - Get the funtion to test .
+    2 - Give input to the function.
+    3 - Define what is the output.
+    4 - Check For the output,
+
+    TDD =:> Test Driven Development
+
+    1 - Think About what your code will Do .
+    2 - Write the 
+    3 - Test The code
