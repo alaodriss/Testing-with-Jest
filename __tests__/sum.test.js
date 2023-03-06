@@ -5,19 +5,22 @@ const sum = require("../sum");
 // it (name, fn, timeout)
 // describe(name, fn) == > juste pour bien oraganise le code and ne pas obiligatore
 
+// test.only or describe.only tu peux test just un test avec only
+// test.skip or test.skip tu peux bloque just un test avec skip  sans utilisation les commainters 
+
 describe("check the numbres sum Total", () => {
   describe("check if no numbers or one number Only", () => {
     test("return 0 if no Number", () => {
       expect(sum()).toBe(0);
     });
 
-    test("return the num just num one", () => {
+    test.only("return the num just num one", () => {
       expect(sum(10)).toBe(10);
     });
   });
 
   describe("check if more than one number ", () => {
-    test("return the num one + two", () => {
+    test.skip("return the num one + two", () => {
       expect(sum(32, 3)).toBe(35);
     });
 
