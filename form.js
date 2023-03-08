@@ -17,6 +17,13 @@ function filterName(name) {
     name = name.substring(1);
   }
 
+    // input pour supprime les mots 
+     
+    if (name === 'Hell') {
+     throw Error("This name Is not Allowed")
+    }
+  
+
   return name;
 }
 
